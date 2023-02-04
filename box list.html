@@ -1,0 +1,1521 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>project</title>
+<meta name="NGO" content="helping hands">
+<style>
+body {
+   background-color:white;
+   margin:0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color:#f1f1f1;
+  padding: 20px 10px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  line-height:25px;
+  border-radius:4px;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 18px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 12px;
+  background-color: inherit;
+  font-family: inherit;
+   line-height:25px;
+  border-radius:4px;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:#ddd;
+  color:black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 0;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.header a.logo {
+    height:100px;
+    width:100px;
+}
+.header-right {
+  float: right;
+}
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 28%;
+  margin-top:0px;
+  margin-bottom: 16px;
+  margin-left:58px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 20px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 25%;
+  height: 600px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: powderblue;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid blue;
+  width: 70%;
+  border-left: none;
+  height: 1500px;
+}
+</style>
+</head>
+<body>
+<div class="navbar">
+ <a href="#default" class="logo"><img src ="l1.png" height=100 width = 150></a>
+  <div class="header-right">  
+    <a href="file:///C:/Users/DELL/OneDrive/Desktop/project/project.html">Home</a>
+    <a href="#about">About us</a>
+    <a href="#supporters">Supporters</a>
+    <a href="file:///C:/Users/DELL/OneDrive/Desktop/project/form.html" targert="blank">Complaint</a>
+  <div class="dropdown">
+    <button class="dropbtn">Cases 
+    </button>
+  <div class="dropdown-content">
+	 <a href="file:///C:/Users/DELL/OneDrive/Desktop/project/place%20wise.html">Place wise</a>
+      <a href="#">Type wise</a>
+  </div>
+  </div>
+    <a href="file:///C:/Users/DELL/OneDrive/Desktop/project/gallery.html">Gallery</a>
+    <a href="#contact form">Contact us</a> 
+</div>
+</div>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>LAND DISPUTE COMPLAINT</h2>
+        <p class="title">Reetu kumari Age: 21 Gender: F </p>
+        <p>State:Bihar</p> 
+	<p>Compalint no:650278 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Murder</h2>
+        <p class="title">Ashish dubey Age:25 Gender:M</p>
+	  <p>State: Delhi</p> 
+	<p>Compalint no: 457820</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Robbery</h2>
+        <p class="title">Amit singh Age:27 Gender:M</p>
+	  <p>State:Madhya pardesh</p> 
+	<p>Compalint no: 97536</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Child labour complaint</h2>
+        <p class="title">Sona mohapatra</p>
+	  <p>State: Rajasthan</p> 
+	<p>Compalint no: 562014</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Harresment</h2>
+        <p class="title">Shruti singh Age:19 Gender:F </p>
+	  <p>State:Uttar pardesh</p> 
+	<p>Compalint no: 302450</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Rape compaiaint</h2>
+        <p class="title">Sakhi seth Age:20 Gender:F</p>
+	  <p>State: Delhi</p> 
+	<p>Compalint no:12450 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Accident</h2>
+        <p class="title">Abhisek param Age:24 Gender:M</p>
+	  <p>State: Jharkhand</p> 
+	<p>Compalint no:15240 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>harresment</h2>
+        <p class="title">Sarika singh Age:18 Gender: F</p>
+	  <p>State:Bihar</p> 
+	<p>Compalint no:001201 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Cyber crime</h2>
+        <p class="title">Anil khus Age:24 Gender:M</p>
+	  <p>State:Delhi</p> 
+	<p>Compalint no:302001 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Land dispute</h2>
+        <p class="title">Mahavir singh Age:26 Gender:M</p>
+	  <p>State:Uttar pardesh</p> 
+	<p>Compalint no: 805402</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+<div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Land dispute</h2>
+        <p class="title">Mahavir singh Age:26 Gender:M</p>
+	  <p>State:Uttar pardesh</p> 
+	<p>Compalint no: 805402</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+   <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Cyber crime</h2>
+        <p class="title">Anil khus Age:24 Gender:M</p>
+	  <p>State:Delhi</p> 
+	<p>Compalint no:302001 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+ <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Rape compaiaint</h2>
+        <p class="title">Sakhi seth Age:20 Gender:F</p>
+	  <p>State: Delhi</p> 
+	<p>Compalint no:12450 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+ <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Robbery</h2>
+        <p class="title">Amit singh Age:27 Gender:M</p>
+	  <p>State:Madhya pardesh</p> 
+	<p>Compalint no: 97536</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Child labour complaint</h2>
+        <p class="title">Sona mohapatra</p>
+	  <p>State: Rajasthan</p> 
+	<p>Compalint no: 562014</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Harresment</h2>
+        <p class="title">Shruti singh Age:19 Gender:F </p>
+	  <p>State:Uttar pardesh</p> 
+	<p>Compalint no: 302450</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Rape compaiaint</h2>
+        <p class="title">Sakhi seth Age:20 Gender:F</p>
+	  <p>State: Delhi</p> 
+	<p>Compalint no:12450 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>harresment</h2>
+        <p class="title">Sarika singh Age:18 Gender: F</p>
+	  <p>State:Bihar</p> 
+	<p>Compalint no:001201 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Cyber crime</h2>
+        <p class="title">Anil khus Age:24 Gender:M</p>
+	  <p>State:Delhi</p> 
+	<p>Compalint no:302001 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Land dispute</h2>
+        <p class="title">Mahavir singh Age:26 Gender:M</p>
+	  <p>State:Uttar pardesh</p> 
+	<p>Compalint no: 805402</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+<div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Land dispute</h2>
+        <p class="title">Mahavir singh Age:26 Gender:M</p>
+	  <p>State:Uttar pardesh</p> 
+	<p>Compalint no: 805402</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+   <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Cyber crime</h2>
+        <p class="title">Anil khus Age:24 Gender:M</p>
+	  <p>State:Delhi</p> 
+	<p>Compalint no:302001 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+ <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Rape compaiaint</h2>
+        <p class="title">Sakhi seth Age:20 Gender:F</p>
+	  <p>State: Delhi</p> 
+	<p>Compalint no:12450 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+ <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Robbery</h2>
+        <p class="title">Amit singh Age:27 Gender:M</p>
+	  <p>State:Madhya pardesh</p> 
+	<p>Compalint no: 97536</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Child labour complaint</h2>
+        <p class="title">Sona mohapatra</p>
+	  <p>State: Rajasthan</p> 
+	<p>Compalint no: 562014</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Harresment</h2>
+        <p class="title">Shruti singh Age:19 Gender:F </p>
+	  <p>State:Uttar pardesh</p> 
+	<p>Compalint no: 302450</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Rape compaiaint</h2>
+        <p class="title">Sakhi seth Age:20 Gender:F</p>
+	  <p>State: Delhi</p> 
+	<p>Compalint no:12450 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>LAND DISPUTE COMPLAINT</h2>
+        <p class="title">Reetu kumari Age: 21 Gender: F </p>
+        <p>State:Bihar</p> 
+	<p>Compalint no:650278 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Murder</h2>
+        <p class="title">Ashish dubey Age:25 Gender:M</p>
+	  <p>State: Delhi</p> 
+	<p>Compalint no: 457820</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Robbery</h2>
+        <p class="title">Amit singh Age:27 Gender:M</p>
+	  <p>State:Madhya pardesh</p> 
+	<p>Compalint no: 97536</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Child labour complaint</h2>
+        <p class="title">Sona mohapatra</p>
+	  <p>State: Rajasthan</p> 
+	<p>Compalint no: 562014</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Harresment</h2>
+        <p class="title">Shruti singh Age:19 Gender:F </p>
+	  <p>State:Uttar pardesh</p> 
+	<p>Compalint no: 302450</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Rape compaiaint</h2>
+        <p class="title">Sakhi seth Age:20 Gender:F</p>
+	  <p>State: Delhi</p> 
+	<p>Compalint no:12450 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Accident</h2>
+        <p class="title">Abhisek param Age:24 Gender:M</p>
+	  <p>State: Jharkhand</p> 
+	<p>Compalint no:15240 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>harresment</h2>
+        <p class="title">Sarika singh Age:18 Gender: F</p>
+	  <p>State:Bihar</p> 
+	<p>Compalint no:001201 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Cyber crime</h2>
+        <p class="title">Anil khus Age:24 Gender:M</p>
+	  <p>State:Delhi</p> 
+	<p>Compalint no:302001 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Land dispute</h2>
+        <p class="title">Mahavir singh Age:26 Gender:M</p>
+	  <p>State:Uttar pardesh</p> 
+	<p>Compalint no: 805402</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+<div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Land dispute</h2>
+        <p class="title">Mahavir singh Age:26 Gender:M</p>
+	  <p>State:Uttar pardesh</p> 
+	<p>Compalint no: 805402</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+   <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Cyber crime</h2>
+        <p class="title">Anil khus Age:24 Gender:M</p>
+	  <p>State:Delhi</p> 
+	<p>Compalint no:302001 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+ <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Rape compaiaint</h2>
+        <p class="title">Sakhi seth Age:20 Gender:F</p>
+	  <p>State: Delhi</p> 
+	<p>Compalint no:12450 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+ <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Robbery</h2>
+        <p class="title">Amit singh Age:27 Gender:M</p>
+	  <p>State:Madhya pardesh</p> 
+	<p>Compalint no: 97536</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Child labour complaint</h2>
+        <p class="title">Sona mohapatra</p>
+	  <p>State: Rajasthan</p> 
+	<p>Compalint no: 562014</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Harresment</h2>
+        <p class="title">Shruti singh Age:19 Gender:F </p>
+	  <p>State:Uttar pardesh</p> 
+	<p>Compalint no: 302450</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Rape compaiaint</h2>
+        <p class="title">Sakhi seth Age:20 Gender:F</p>
+	  <p>State: Delhi</p> 
+	<p>Compalint no:12450 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>harresment</h2>
+        <p class="title">Sarika singh Age:18 Gender: F</p>
+	  <p>State:Bihar</p> 
+	<p>Compalint no:001201 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Cyber crime</h2>
+        <p class="title">Anil khus Age:24 Gender:M</p>
+	  <p>State:Delhi</p> 
+	<p>Compalint no:302001 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Land dispute</h2>
+        <p class="title">Mahavir singh Age:26 Gender:M</p>
+	  <p>State:Uttar pardesh</p> 
+	<p>Compalint no: 805402</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+<div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Land dispute</h2>
+        <p class="title">Mahavir singh Age:26 Gender:M</p>
+	  <p>State:Uttar pardesh</p> 
+	<p>Compalint no: 805402</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+   <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Cyber crime</h2>
+        <p class="title">Anil khus Age:24 Gender:M</p>
+	  <p>State:Delhi</p> 
+	<p>Compalint no:302001 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+ <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Rape compaiaint</h2>
+        <p class="title">Sakhi seth Age:20 Gender:F</p>
+	  <p>State: Delhi</p> 
+	<p>Compalint no:12450 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+ <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Robbery</h2>
+        <p class="title">Amit singh Age:27 Gender:M</p>
+	  <p>State:Madhya pardesh</p> 
+	<p>Compalint no: 97536</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Child labour complaint</h2>
+        <p class="title">Sona mohapatra</p>
+	  <p>State: Rajasthan</p> 
+	<p>Compalint no: 562014</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Harresment</h2>
+        <p class="title">Shruti singh Age:19 Gender:F </p>
+	  <p>State:Uttar pardesh</p> 
+	<p>Compalint no: 302450</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Rape compaiaint</h2>
+        <p class="title">Sakhi seth Age:20 Gender:F</p>
+	  <p>State: Delhi</p> 
+	<p>Compalint no:12450 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>LAND DISPUTE COMPLAINT</h2>
+        <p class="title">Reetu kumari Age: 21 Gender: F </p>
+        <p>State:Bihar</p> 
+	<p>Compalint no:650278 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Murder</h2>
+        <p class="title">Ashish dubey Age:25 Gender:M</p>
+	  <p>State: Delhi</p> 
+	<p>Compalint no: 457820</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Robbery</h2>
+        <p class="title">Amit singh Age:27 Gender:M</p>
+	  <p>State:Madhya pardesh</p> 
+	<p>Compalint no: 97536</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Child labour complaint</h2>
+        <p class="title">Sona mohapatra</p>
+	  <p>State: Rajasthan</p> 
+	<p>Compalint no: 562014</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Harresment</h2>
+        <p class="title">Shruti singh Age:19 Gender:F </p>
+	  <p>State:Uttar pardesh</p> 
+	<p>Compalint no: 302450</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Rape compaiaint</h2>
+        <p class="title">Sakhi seth Age:20 Gender:F</p>
+	  <p>State: Delhi</p> 
+	<p>Compalint no:12450 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Accident</h2>
+        <p class="title">Abhisek param Age:24 Gender:M</p>
+	  <p>State: Jharkhand</p> 
+	<p>Compalint no:15240 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>harresment</h2>
+        <p class="title">Sarika singh Age:18 Gender: F</p>
+	  <p>State:Bihar</p> 
+	<p>Compalint no:001201 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Cyber crime</h2>
+        <p class="title">Anil khus Age:24 Gender:M</p>
+	  <p>State:Delhi</p> 
+	<p>Compalint no:302001 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Land dispute</h2>
+        <p class="title">Mahavir singh Age:26 Gender:M</p>
+	  <p>State:Uttar pardesh</p> 
+	<p>Compalint no: 805402</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+<div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Land dispute</h2>
+        <p class="title">Mahavir singh Age:26 Gender:M</p>
+	  <p>State:Uttar pardesh</p> 
+	<p>Compalint no: 805402</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+   <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Cyber crime</h2>
+        <p class="title">Anil khus Age:24 Gender:M</p>
+	  <p>State:Delhi</p> 
+	<p>Compalint no:302001 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+ <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Rape compaiaint</h2>
+        <p class="title">Sakhi seth Age:20 Gender:F</p>
+	  <p>State: Delhi</p> 
+	<p>Compalint no:12450 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+ <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Robbery</h2>
+        <p class="title">Amit singh Age:27 Gender:M</p>
+	  <p>State:Madhya pardesh</p> 
+	<p>Compalint no: 97536</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Child labour complaint</h2>
+        <p class="title">Sona mohapatra</p>
+	  <p>State: Rajasthan</p> 
+	<p>Compalint no: 562014</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Harresment</h2>
+        <p class="title">Shruti singh Age:19 Gender:F </p>
+	  <p>State:Uttar pardesh</p> 
+	<p>Compalint no: 302450</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Rape compaiaint</h2>
+        <p class="title">Sakhi seth Age:20 Gender:F</p>
+	  <p>State: Delhi</p> 
+	<p>Compalint no:12450 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>harresment</h2>
+        <p class="title">Sarika singh Age:18 Gender: F</p>
+	  <p>State:Bihar</p> 
+	<p>Compalint no:001201 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Cyber crime</h2>
+        <p class="title">Anil khus Age:24 Gender:M</p>
+	  <p>State:Delhi</p> 
+	<p>Compalint no:302001 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Land dispute</h2>
+        <p class="title">Mahavir singh Age:26 Gender:M</p>
+	  <p>State:Uttar pardesh</p> 
+	<p>Compalint no: 805402</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+<div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Land dispute</h2>
+        <p class="title">Mahavir singh Age:26 Gender:M</p>
+	  <p>State:Uttar pardesh</p> 
+	<p>Compalint no: 805402</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+   <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Cyber crime</h2>
+        <p class="title">Anil khus Age:24 Gender:M</p>
+	  <p>State:Delhi</p> 
+	<p>Compalint no:302001 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+ <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Rape compaiaint</h2>
+        <p class="title">Sakhi seth Age:20 Gender:F</p>
+	  <p>State: Delhi</p> 
+	<p>Compalint no:12450 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+ <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Robbery</h2>
+        <p class="title">Amit singh Age:27 Gender:M</p>
+	  <p>State:Madhya pardesh</p> 
+	<p>Compalint no: 97536</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Child labour complaint</h2>
+        <p class="title">Sona mohapatra</p>
+	  <p>State: Rajasthan</p> 
+	<p>Compalint no: 562014</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Harresment</h2>
+        <p class="title">Shruti singh Age:19 Gender:F </p>
+	  <p>State:Uttar pardesh</p> 
+	<p>Compalint no: 302450</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Rape compaiaint</h2>
+        <p class="title">Sakhi seth Age:20 Gender:F</p>
+	  <p>State: Delhi</p> 
+	<p>Compalint no:12450 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>LAND DISPUTE COMPLAINT</h2>
+        <p class="title">Reetu kumari Age: 21 Gender: F </p>
+        <p>State:Bihar</p> 
+	<p>Compalint no:650278 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Murder</h2>
+        <p class="title">Ashish dubey Age:25 Gender:M</p>
+	  <p>State: Delhi</p> 
+	<p>Compalint no: 457820</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Robbery</h2>
+        <p class="title">Amit singh Age:27 Gender:M</p>
+	  <p>State:Madhya pardesh</p> 
+	<p>Compalint no: 97536</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Child labour complaint</h2>
+        <p class="title">Sona mohapatra</p>
+	  <p>State: Rajasthan</p> 
+	<p>Compalint no: 562014</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Harresment</h2>
+        <p class="title">Shruti singh Age:19 Gender:F </p>
+	  <p>State:Uttar pardesh</p> 
+	<p>Compalint no: 302450</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Rape compaiaint</h2>
+        <p class="title">Sakhi seth Age:20 Gender:F</p>
+	  <p>State: Delhi</p> 
+	<p>Compalint no:12450 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Accident</h2>
+        <p class="title">Abhisek param Age:24 Gender:M</p>
+	  <p>State: Jharkhand</p> 
+	<p>Compalint no:15240 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>harresment</h2>
+        <p class="title">Sarika singh Age:18 Gender: F</p>
+	  <p>State:Bihar</p> 
+	<p>Compalint no:001201 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Cyber crime</h2>
+        <p class="title">Anil khus Age:24 Gender:M</p>
+	  <p>State:Delhi</p> 
+	<p>Compalint no:302001 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Land dispute</h2>
+        <p class="title">Mahavir singh Age:26 Gender:M</p>
+	  <p>State:Uttar pardesh</p> 
+	<p>Compalint no: 805402</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+<div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Land dispute</h2>
+        <p class="title">Mahavir singh Age:26 Gender:M</p>
+	  <p>State:Uttar pardesh</p> 
+	<p>Compalint no: 805402</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+   <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Cyber crime</h2>
+        <p class="title">Anil khus Age:24 Gender:M</p>
+	  <p>State:Delhi</p> 
+	<p>Compalint no:302001 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+ <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Rape compaiaint</h2>
+        <p class="title">Sakhi seth Age:20 Gender:F</p>
+	  <p>State: Delhi</p> 
+	<p>Compalint no:12450 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+ <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Robbery</h2>
+        <p class="title">Amit singh Age:27 Gender:M</p>
+	  <p>State:Madhya pardesh</p> 
+	<p>Compalint no: 97536</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Child labour complaint</h2>
+        <p class="title">Sona mohapatra</p>
+	  <p>State: Rajasthan</p> 
+	<p>Compalint no: 562014</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Harresment</h2>
+        <p class="title">Shruti singh Age:19 Gender:F </p>
+	  <p>State:Uttar pardesh</p> 
+	<p>Compalint no: 302450</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Rape compaiaint</h2>
+        <p class="title">Sakhi seth Age:20 Gender:F</p>
+	  <p>State: Delhi</p> 
+	<p>Compalint no:12450 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>harresment</h2>
+        <p class="title">Sarika singh Age:18 Gender: F</p>
+	  <p>State:Bihar</p> 
+	<p>Compalint no:001201 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Cyber crime</h2>
+        <p class="title">Anil khus Age:24 Gender:M</p>
+	  <p>State:Delhi</p> 
+	<p>Compalint no:302001 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Land dispute</h2>
+        <p class="title">Mahavir singh Age:26 Gender:M</p>
+	  <p>State:Uttar pardesh</p> 
+	<p>Compalint no: 805402</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+<div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Land dispute</h2>
+        <p class="title">Mahavir singh Age:26 Gender:M</p>
+	  <p>State:Uttar pardesh</p> 
+	<p>Compalint no: 805402</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+   <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Cyber crime</h2>
+        <p class="title">Anil khus Age:24 Gender:M</p>
+	  <p>State:Delhi</p> 
+	<p>Compalint no:302001 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+ <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Rape compaiaint</h2>
+        <p class="title">Sakhi seth Age:20 Gender:F</p>
+	  <p>State: Delhi</p> 
+	<p>Compalint no:12450 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+ <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Robbery</h2>
+        <p class="title">Amit singh Age:27 Gender:M</p>
+	  <p>State:Madhya pardesh</p> 
+	<p>Compalint no: 97536</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Child labour complaint</h2>
+        <p class="title">Sona mohapatra</p>
+	  <p>State: Rajasthan</p> 
+	<p>Compalint no: 562014</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Harresment</h2>
+        <p class="title">Shruti singh Age:19 Gender:F </p>
+	  <p>State:Uttar pardesh</p> 
+	<p>Compalint no: 302450</p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Rape compaiaint</h2>
+        <p class="title">Sakhi seth Age:20 Gender:F</p>
+	  <p>State: Delhi</p> 
+	<p>Compalint no:12450 </p>
+	<p>issue solved</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

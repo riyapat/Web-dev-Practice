@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function abc()
+            {
+                var retVal=confirm("do u want to continue?");
+                if(retVal==true){
+                    document.write("user wants to countinue!");
+                    return true;
+                }
+                else{
+                    document.write("user does not  wants to countinue!");
+                    return false;
+                }
+            }
+        </script>
+        
+    </head>
+    <body>
+        <input type="submit" onclick="abc()">
+    </body>
+</html>
