@@ -1,0 +1,44 @@
+<html>
+<script>
+    function abc()
+    {
+        var x = event.which;
+  alert("The Unicode value is: " + x);
+    }
+    
+    function backabc()
+    {
+    document.getElementById("back").style.backgroundColor="red";
+    }
+    
+    function prints()
+    {
+        document.write("hello dear");
+    }
+    function validate(){
+        alert("Validate");
+        if(document.getElementById("textvalue").value=='hr')
+        return true;
+        else
+        return false;
+    }
+</script>
+<body onkeypress="abc(event)" onload="backabc()" id="back">
+    <img src="1.png" alt="" WIDTH="500PX">    
+    <form>
+            <input type="button" onclick="print()" value="click me"/>
+        </form>
+        <button onclick="window.print()">click me</button>
+        <p ondblclick="prints()">click me</p>
+        <p oncontextmenu="prints()">click me</p><!-- right click means oncontextmenu-->
+        <!--p onmouseenter="prints()">click me</p-->
+        <p onmouseout="prints()">click</p>
+        <p onmousedown="prints()">clickdown</p>
+        <p onmouseup="prints()">clickup</p>
+        <form method="get" action="https://www.google.com/search?" onsubmit="return validate()">
+            <input type="text" id="textvalue" name="q">
+            <input type="submit" value="Submit">
+            </form>
+        <input type="text" >
+    </body>
+</html>
